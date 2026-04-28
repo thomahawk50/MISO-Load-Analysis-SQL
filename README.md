@@ -34,6 +34,20 @@ Regions: Central, North, South
 
 MISO_System_Load_9_1_23-12_31_25.csv contains the system-level series used for sections 1–4. Regional data (used in section 5) was queried directly in BigQuery and is too large to include as a file.
 
+## Repository Structure
+
+Queries are numbered to follow the analytical arc of the report.
+
+| Section | Question |
+| --- | --- |
+| 1.x | Distribution shape and how rare extreme hours are |
+| 2.x | Temporal patterns — year, season, month, day type, hour |
+| 3.x | Event duration and persistence |
+| 4.x | Load conditions leading into peak demand |
+| 5.x | Regional decomposition |
+
+Written in Google BigQuery Standard SQL.
+
 ## The Report
 
 The accompanying 40-page report — [MISO System Load Analysis: Growth, Patterns, and Peak Demand (2023–2025)](https://github.com/thomahawk50/MISO-Load-Analysis-SQL/blob/main/MISO%20System%20Load%20Analysis.pdf) — contains methodology, figures, and discussion.
