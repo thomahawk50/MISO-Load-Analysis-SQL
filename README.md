@@ -1,8 +1,10 @@
 # MISO System Load Analysis using SQL
 
-## About the MISO Load Analysis (SQL)
+## About the Analysis
 
 SQL queries supporting an independent analysis of system load and peak demand behavior across the Midcontinent Independent System Operator (MISO) footprint, September 2023 – December 2025.
+
+## Headline Finding 
 
 Peak demand hours are defined as hours at or above the p99 system load threshold of 110,423 MW, held fixed across the full study period. Of the 205 peak demand hours observed, ~77% occurred in 2025, ~21% in 2024, and ~2% in 2023 (partial-year coverage). Peak demand days show the same pattern, increasing 3.4× from 2024 to 2025.
 
@@ -34,6 +36,6 @@ MISO_System_Load_9_1_23-12_31_25.csv contains the system-level series used for s
 
 ## The Report
 
-The accompanying 40-page report — MISO System Load Analysis: Growth, Patterns, and Peak Demand (2023–2025) — contains methodology, figures, and discussion.
+The accompanying 40-page report — [MISO System Load Analysis: Growth, Patterns, and Peak Demand (2023–2025)](https://github.com/thomahawk50/MISO-Load-Analysis-SQL/blob/main/MISO%20System%20Load%20Analysis.pdf) — contains methodology, figures, and discussion.
 
 Independent analysis by Thom Johnson, MS Business Analytics
