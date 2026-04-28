@@ -10,7 +10,7 @@ Peak demand hours are defined as hours at or above the p99 system load threshold
 
 The increase reflects more frequent entry into extreme load conditions, not longer or more severe individual events — event durations remain bounded at 1–10 hours, with a median of 4.
 
-## Supporting findings
+## Supporting Findings
 
 Baseline load is rising. Rolling 12-month median system load grew ~8.6% over the study period; total annual energy consumption rose ~4% from 2024 to 2025.
 
