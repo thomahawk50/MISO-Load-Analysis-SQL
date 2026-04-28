@@ -3,7 +3,6 @@
 ## About the MISO Load Analysis (SQL)
 
 SQL queries supporting an independent analysis of system load and peak demand behavior across the Midcontinent Independent System Operator (MISO) footprint, September 2023 – December 2025.
-Headline finding
 
 Peak demand hours are defined as hours at or above the p99 system load threshold of 110,423 MW, held fixed across the full study period. Of the 205 peak demand hours observed, ~77% occurred in 2025, ~21% in 2024, and ~2% in 2023 (partial-year coverage). Peak demand days show the same pattern, increasing 3.4× from 2024 to 2025.
 
@@ -22,9 +21,13 @@ Regional shares are stable under peak conditions. The Central region carries ~50
 ## Data
 
 Source: MISO LGI Actual Load (public REST API)
+
 Granularity: Hourly, MW, EST
+
 Records: 20,472 hourly observations
+
 Time range: Sep 1, 2023 – Dec 31, 2025
+
 Regions: Central, North, South
 
 MISO_System_Load_9_1_23-12_31_25.csv contains the system-level series used for sections 1–4. Regional data (used in section 5) was queried directly in BigQuery and is too large to include as a file.
